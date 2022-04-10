@@ -1,0 +1,28 @@
+{
+    "name": "hashash/project-service",
+    "description": "provider service for project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hashash\\ProjectService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AbdAlatefHashash",
+            "email": "hluffy0002@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "Hashash\\ProjectService\\ProjectServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "orchestra/testbench": "^7.3"
+    }
+}
